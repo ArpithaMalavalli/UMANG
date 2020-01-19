@@ -9,7 +9,6 @@
  .iiitbmap {
    width: 100vw;
  }
- /* css end*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -477,7 +476,7 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } }
+      max-width: 1700px; } }
 
 .container-fluid {
   width: 100%;
@@ -7544,8 +7543,8 @@ header {
       position: relative;
       padding-left: 62px; }
       header .colorlib-navbar-brand .colorlib-logo .logo-img {
-        width: 50px;
-        height: 50px;
+        width: 10vh;
+        height: 10vh;
         position: absolute;
         top: 0;
         left: 0;
