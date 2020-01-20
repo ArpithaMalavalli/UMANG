@@ -6683,7 +6683,7 @@ button.bg-dark:focus {
     padding-right: 3rem !important; }
   .pb-md-5,
   .py-md-5 {
-    padding-bottom: 3rem !important; }
+    padding-bottom: 3rem !important; padding-left: 10vw}
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important; }
@@ -7277,9 +7277,9 @@ body {
   background: #000000;
   font-size: 18px;
   line-height: 1.8;
-  font-weight: 400;
-  color: #8c8c8c;
-  background-image: url("../images/footballbg.jpg");
+  font-weight: 600;
+  color: #fff;
+  /* background-image: url("../images/footballbg.jpg"); */
   position: relative; }
   body:after {
     position: fixed;
@@ -7748,7 +7748,7 @@ header {
           font-size: 100px;
           color: rgba(255, 255, 255, 0.08); }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
-          font-size: 55px;
+          font-size: 12vh;
           color: #fff;
           line-height: 1.2;
           font-weight: 700;
@@ -7765,6 +7765,7 @@ header {
           font-weight: 300;
           color: rgba(255, 255, 255, 0.8); }
           .owl-carousel.home-slider .slider-item .slider-text p a.scroll {
+            font-size: 5vh;
             color: rgba(255, 255, 255, 0.6);
             font-weight: 400;
             text-transform: uppercase;
