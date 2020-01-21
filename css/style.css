@@ -7,7 +7,11 @@
 
  /* our css */
  .iiitbmap {
-   width: 100vw;
+   /* width: 100vw; */
+ }
+
+ .map {
+   max-width: fit-content;
  }
 :root {
   --blue: #007bff;
